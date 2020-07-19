@@ -1,0 +1,16 @@
+### standard attachment 10MB --> change to 25MB 
+### message_size_limit tdak boleh lebih besar dari mailbox_size_limit
+#message_size_limit = 10240000
+message_size_limit = 26214400
+
+### standard mailbox_size_limit 48MB --> change to 50
+### mailbox_size_limit = 0 --> 0 sama dengan unlimited
+#mailbox_size_limit = 51200000
+mailbox_size_limit = 52428800
+
+### set myhostname directly (tidak tergantung server hostname)
+myhostname = mail.widiastono.my.id
+
+### standard semua protocol ip dipakai baik ipv4 maupun ipv6 --> savely pakai ipv4
+#inet_protocols = all
+inet_protocols = ipv4
